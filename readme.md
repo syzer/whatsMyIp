@@ -1,4 +1,6 @@
 # WAT
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/syzer/whatsMyIp.svg)](https://greenkeeper.io/)
 Prints qr codes and ip adresses of your machine and server
 
 # Usage
