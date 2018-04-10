@@ -1,4 +1,4 @@
-# WAT
+# WhatsMyIP [![Build Status](https://travis-ci.org/syzer/whatsMyIp.svg?branch=master)](https://travis-ci.org/syzer/whatsMyIp) 
 Prints qr codes and ip addresses of your machine and server
 
 [![asciicast](https://asciinema.org/a/EAi2R38j57mTwFxdWuv2WiRmv.png)](https://asciinema.org/a/EAi2R38j57mTwFxdWuv2WiRmv)
