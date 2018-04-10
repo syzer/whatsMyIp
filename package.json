@@ -1,6 +1,6 @@
 {
   "name": "whatsmyip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Print your public and private ip and qr-codes of it, usefull for hackatons",
   "main": "whatsMyIp.compiled.js",
   "scripts": {

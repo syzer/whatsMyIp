@@ -1,5 +1,7 @@
 # WAT
-Prints qr codes and ip adresses of your machine and server
+Prints qr codes and ip addresses of your machine and server
+
+[![asciicast](https://asciinema.org/a/EAi2R38j57mTwFxdWuv2WiRmv.png)](https://asciinema.org/a/EAi2R38j57mTwFxdWuv2WiRmv)
 
 # Usage
 
@@ -14,7 +16,7 @@ whatsMyIp
 ```js
 import whatsMyIp from './whatsMyIp'
 whatsMyIp()
-// will console.log qrcodes and ips
+// will console.log qr-codes and ips
 ```
 
 ## with old modules
@@ -23,7 +25,7 @@ const whatsMyIps = require('./whatsMyIp.compiled').default
 whatsMyIps()
 ```
 
-or with port 
+## or with port 
 ```js
 const whatsMyIp = require('./whatsMyIp.compiled').default
 whatsMyIp(3008) 
