@@ -1,0 +1,37 @@
+{
+  "name": "whatsmyip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "whatsMyIp.js",
+  "scripts": {
+    "test": "ava",
+    "precommit": "babel whatsMyIp.js --out-file whatsMyIp.compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syzer/whatsMyIp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syzer/whatsMyIp/issues"
+  },
+  "homepage": "https://github.com/syzer/whatsMyIp#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "ava": {
+    "require": "babel-register",
+    "babel": "inherit"
+  },
+  "dependencies": {
+    "execa": "^0.10.0",
+    "ip": "^1.1.5",
+    "qrcode": "^1.2.0",
+    "ramda": "^0.25.0"
+  }
+}
