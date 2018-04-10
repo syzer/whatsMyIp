@@ -5,8 +5,9 @@ Prints qr codes and ip adresses of your machine and server
 
 ## cli
 ```bash
-./whatsMyIp
-# will print qrcodes and ips
+npm i -g whatsmyip
+whatsMyIp
+# will print qr-codes and ips
 ```
 
 ## es2017

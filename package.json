@@ -1,7 +1,7 @@
 {
   "name": "whatsmyip",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Print your public and private ip and qr-codes of it, usefull for hackatons",
   "main": "whatsMyIp.compiled.js",
   "scripts": {
     "test": "ava",
@@ -11,7 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/syzer/whatsMyIp.git"
   },
-  "author": "",
+  "keywords": ["ip", "qrcode", "url adress", "my ip"],
+  "author": "syzer",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/syzer/whatsMyIp/issues"
