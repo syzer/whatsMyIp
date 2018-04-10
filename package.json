@@ -2,7 +2,7 @@
   "name": "whatsmyip",
   "version": "1.0.0",
   "description": "",
-  "main": "whatsMyIp.js",
+  "main": "whatsMyIp.compiled.js",
   "scripts": {
     "test": "ava",
     "precommit": "babel whatsMyIp.js --out-file whatsMyIp.compiled.js"
